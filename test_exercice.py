@@ -8,7 +8,6 @@ import unittest
 
 import exercice
 
-
 class TestExercice(unittest.TestCase):
     def test_square_root(self):
         values = [12, 200, 20]

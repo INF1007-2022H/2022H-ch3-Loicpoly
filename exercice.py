@@ -1,19 +1,19 @@
-#!/usr/bin/env python
-# -*- coding: utf-8 -*-
-
-
+#  !/usr/bin/env python
+#  -*- coding: utf-8 -*-
 import math
-
 def square_root(a: float) -> float:
-    return 0.0
+    sqr = pow(a, 0.5)
+    return sqr
 
 
 def square(a: float) -> float:
-    return 0.0
+    sqrt = pow(a, 2)
+    return sqrt
 
 
 def average(a: float, b: float, c: float) -> float:
-    return 0.0
+    avera = (a + b + c) / 3
+    return avera
 
 
 def to_radians(angle_degs: float, angle_mins: float, angle_secs: float) -> float:
