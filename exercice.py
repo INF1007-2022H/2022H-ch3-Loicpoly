@@ -17,7 +17,7 @@ def average(a: float, b: float, c: float) -> float:
     avera = (a + b + c) / 3
     return avera
 
-
+# https://openclassrooms.com/forum/sujet/angle-en-degres-minutes-secondes#:~:text=%E2%80%A6-,La%20conversion%20radian%20vers%20degr%C3%A9%20d%C3%A9cimal%20est,%3D%20radian%20%C3%97%20180%20%2F%20%E2%84%BC.
 def to_radians(angle_degs: float, angle_mins: float, angle_secs: float) -> float:
     deg = angle_degs + angle_mins / 60 + angle_secs / 3600
     rad = math.radians(deg)
